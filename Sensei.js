@@ -13,10 +13,7 @@ class Ninja{
     }
 
     showStats(){
-        console.log('Name:', this.name, '\n', 
-                'Health:', this.health, '\n', 
-                'Speed:', this.speed, '\n', 
-                'Strength:', this.strength, '\n')
+        console.log(`\nName: ${this.name}\nHealth: ${this.health}\nSpeed: ${this.speed}\nStrenth: ${this.strength}\n`)
     }
 
     drinkSake(){
@@ -37,7 +34,6 @@ class Sensei extends Ninja{
         console.log('Wisdom:', this.wisdom)
     }
 
-    
 }
 
 const ninja1 = new Ninja("Hyabusa", 10);
